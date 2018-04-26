@@ -11,7 +11,7 @@ pipeline {
     }
     stage ('Deploy_WebApp') {
       steps {
-        sh 'scp target/*.war vagrant@10.4.40.69:~/tomcat/apache-tomcat-9.0.6/webapps/'
+        //sh 'scp target/*.war vagrant@10.4.40.69:~/tomcat/apache-tomcat-9.0.6/webapps/'
       }
     }
   } 
